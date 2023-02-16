@@ -1,0 +1,48 @@
+body{margin:0; padding:0; min-width:300px; wrap-word:break-word; background-color:#ffffff; font-family:'Alegreya Sans'; font-weight:300; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; overflow-x:hidden;}
+a{text-decoration:none; color:#333333; font-size:15px; cursor:pointer; wrap-word:break-word;}
+div{wrap-word:break-word;}
+span{wrap-word:break-word;}
+form{margin:0; padding:0;}
+.gotofull{float:right; font-family:'Alegreya Sans'; font-size:12px; color:#33597F;}
+.gotofull:hover{text-decoration:underline; cursor:pointer;}
+.title{width:auto; height:auto; padding:10px; color:#333333; font-family:'Alegreya Sans'; font-size:18px; border-bottom:1px solid #dddddd;}
+#topbar{position:fixed; top:0; left:0; width:100%; height:auto; padding:0; z-index:1000000000000000;}
+#topbar table{margin:0; width:100%; height:auto; padding:0; background-color:#333333; vertical-align:middle; border-bottom:1px solid #dddddd;}
+#topbar #logo{width:5%; background-color:#33597F; padding:10px; text-align:center; cursor:pointer;}
+#topbar #logo img{width:35px; height:auto;}
+#topbar #menu{width:20%; height:auto; padding:0px 1px; background-color:#ffffff;}
+#topbar #menu .link{width:auto; max-width:150px; height:100%; background-color:#ffffff; color:#33597F; padding:22px 10px 22px 10px; font-family:'Alegreya Sans'; font-size:15px; text-decoration:none; cursor:pointer;}
+#topbar #menu .link:hover{opacity:0.6; filter:alpha(opacity=60);}
+#topbar #menu .link .notcount{float:right; background-color:#ff0000; color:#4A80B6; font-size:12px; display:block;}
+#topbar #search{width:25%; height:auto; background-color:#ffffff; padding:0; vertical-align:middle; text-align:left;}
+#topbar #search #terms{width:70%; min-width:20px; height:65px; border:1px solid #cccccc; color:#336CA6; border-top:none; border-bottom:none; padding:5px 10px; font-family:'Alegreya Sans'; font-size:15px;}
+#topbar #search #go{margin-left:5px; width:auto; height:50px; border:none; padding:2px 13px; background-color:#ffffff; color:#336CA6; font-family:'Alegreya Sans'; font-size:15px; border:1px solid #cccccc; border-radius:10000000px;}
+#topbar #user{width:25%; background-color:#ffffff; text-align:right; padding:10px; padding-right:25px; vertical-align:middle;}
+#topbar #user #button{float:right; width:auto; height:auto; background-color:#336CA6; font-family:'Alegreya Sans'; font-weight:300; font-size:12px; border:3px solid #cccccc; border-radius:10000000px; cursor:pointer; -webkit-transition: border 300ms ease-out; -moz-transition: border 300ms ease-out; -o-transition: border 300ms ease-out; transition: border 300ms ease-out;}
+#topbar #user #button:hover{border:3px solid #336CA6;}
+#topbar #user #button img{width:40px; height:40px; border-radius:10000000px; opacity:1; filter:alpha(opacity=100);}
+#topbar #user #button img:hover{opacity:0.8; filter:alpha(opacity=80);}
+#topbar #user #notifcount{float:right; width:auto; height:auto; padding:5px; color:#336CA6; font-family:'Alegreya Sans'; font-weight:300; font-size:25px; border-radius:10000px;}
+#usermenu{position:absolute; margin:0px 0px 0px 90%; width:10%; height:auto; padding:0; background-color:#ffffff; border:2px solid rgba(0,0,0,0.5); border-top:none; border-right:none; text-align:center; display:none; z-index:10000000;}
+#usermenu .item{width:auto; height:auto; padding:10px; background-color:#ffffff; border-bottom:1px solid #eeeeee;}
+#usermenu .item:hover{background-color:#33597F;}
+#usermenu .item:hover a{color:#ffffff;}
+#usermenu .item a{width:auto; height:auto; font-family:'Alegreya Sans'; font-weight:500; font-size:15px;}
+#usermenu .mobileitem{width:auto; height:auto; padding:10px 20px; background-color:#ffffff; border-bottom:1px solid #eeeeee; display:none;}
+#usermenu .mobileitem:hover{background-color:#33567F;}
+#usermenu .mobileitem:hover a{color:#ffffff;}
+#usermenu .mobileitem a{width:auto; height:auto; font-family:'Alegreya Sans'; font-size:15px;}
+#main{margin-top:65px; width:auto; height:auto; padding:10px; z-index:100;}
+#wide{margin-top:65px; width:auto; height:auto; z-index:100;}
+@media only screen and (max-width: 800px){
+	#topbar{position:static; width:100%;}
+	#topbar #servmsg{display:none;}
+	#topbar #menu{display:none;}
+	#topbar #logo{width:50%;}
+	#topbar #search{display:none;}
+	#topbar #user{width:50%;}
+	#usermenu{margin:0; width:100%; border:2px solid rgba(0,0,0,0.5);}
+	#usermenu .mobileitem{display:inline-block;}
+	#main{margin-top:0;}
+	#wide{margin-top:0;}
+}

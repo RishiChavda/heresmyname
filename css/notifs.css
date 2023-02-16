@@ -1,0 +1,8 @@
+#notifs{width:auto; height:auto; padding:10px;}
+#notifs .option{width:auto; height:auto; padding:5px; color:#336CA6; font-family:'Alegreya Sans'; font-size:15px; text-align:center; display:inline-block;}
+#notifs .yeseenitem{width:auto; height:auto; padding:10px; background-color:#ffffff; border-bottom:1px solid #dddddd;}
+#notifs .ntseenitem{width:auto; height:auto; padding:10px; background-color:#eeeeee; border-bottom:1px solid #cccccc;}
+#notifs .yeseenitem:hover, #notifs .ntseenitem:hover{border-bottom:1px solid #336CA6;}
+#notifs .event{width:auto; padding:10px; color:#222222; font-family:'Alegreya Sans'; font-size:20px; display:inline-block;}
+#notifs .time{width:auto; padding:10px; color:#888888; font-family:'Alegreya Sans'; font-size:15px; display:inline-block;}
+#notifs .del{float:right; width:auto; height:auto; padding:10px; color:#336CA6; display:block; text-align:right;}

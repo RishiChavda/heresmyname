@@ -1,0 +1,33 @@
+#wide #searchbox{width:auto; min-width:200px; height:auto; background-color:#f5f5f5; border:1px solid #dddddd; text-align:center;}
+#searchbox #mobilesearch{margin:0px 0px; padding:0; background-color:#ffffff; border-bottom:1px solid #dddddd; text-align:center; display:none;}
+#searchbox #mobilesearch #terms{width:90%; min-width:80px; height:50px; border:none; padding:10px; background-color:#ffffff; color:#336CA6; font-family:'Open Sans'; font-size:18px;}
+#searchbox #mobilesearch #go{width:10%; height:50px; border:none; padding:5px; background-color:#ffffff; color:#336CA6; font-family:'Open Sans'; font-size:18px;}
+#searchbox #error{margin:5px 20%; width:auto; padding:10px; font-family:'Alegreya Sans'; font-size:20px; color:#C23F31; border:1px solid #C23F31; display:none;}
+#searchbox table{width:100%;}
+#searchbox #heading{width:auto; height:auto; padding:10px; text-align:left; font-family:'Alegreya Sans'; font-size:18px; color:#333333; border-bottom:1px solid #cccccc;}
+#searchbox #sort{width:auto; height:auto; padding:10px; display:none;}
+#searchbox #sort .sorters{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:15px; color:#333333;}
+#searchbox #sidebar{width:15%; height:auto; padding:10px 5px; vertical-align:top;}
+#searchbox #sidebar .sorters{width:auto; height:auto; padding:10px 20px; font-family:'Alegreya Sans'; font-size:15px; background-color:#ffffff; color:#336CA6; display:block; -webkit-transition: background-color 200ms ease-out; -moz-transition: background-color 200ms ease-out; -o-transition: background-color 200ms ease-out; transition: background-color 200ms ease-out;}
+#searchbox #sidebar .sorters:hover{background-color:#336CA6; color:#ffffff;}
+#searchbox #results{width:85%; height:auto; padding:10px; vertical-align:top;}
+#searchbox .userentry{width:auto; height:auto; padding:10px; border:1px solid #eeeeee; border-bottom:1px solid #bbbbbb; text-align:left;}
+#searchbox .userentry:hover{border-bottom:1px solid #888888; -webkit-transition: border 300ms ease-out; -moz-transition: border 300ms ease-out; -o-transition: border 300ms ease-out; transition: border 300ms ease-out;}
+#searchbox .userentry .pic{float:left; width:30px; height:30px; background-color:#336CA6; vertical-align:middle; border-radius:10000000px;}
+#searchbox .userentry .pic:active{width:80px; height:auto; -webkit-transition: width 300ms ease-out; -moz-transition: width 300ms ease-out; -o-transition: width 300ms ease-out; transition: width 300ms ease-out;}
+#searchbox .userentry .name{width:auto; padding:5px; color:#243F5A; font-family:'Open Sans'; font-size:15px; display:inline-block;}
+#searchbox .userentry .follow{margin-left:10px; width:auto; height:auto; padding:5px; background-color:#bbbbbb; font-family:'Alegreya Sans'; font-size:12px; color:#ffffff;text-align:center;}
+#searchbox .storyentry{width:auto; height:auto; padding:5px; border:1px solid #eeeeee; border-bottom:1px solid #bbbbbb; text-align:left; display:none;}
+#searchbox .storyentry:hover{border-bottom:1px solid #888888; -webkit-transition: border 300ms ease-out; -moz-transition: border 300ms ease-out; -o-transition: border 300ms ease-out; transition: border 300ms ease-out;}
+#searchbox .storyentry .name{width:auto; padding:5px; color:#243F5A; font-family:'Open Sans'; font-size:18px; text-align:left;}
+#searchbox .storyentry .name .writer{width:auto; padding:5px; color:#888888; font-family:'Open Sans'; font-size:15px; text-align:left;}
+#searchbox .storyentry .blurb{width:auto; padding:5px 20px; color:#336CA6; font-family:'Open Sans'; font-size:12px; text-align:justify;}
+#searchbox .shelf{margin-left:10px; width:auto; height:auto; padding:5px; background-color:#bbbbbb; font-family:'Alegreya Sans'; font-size:12px; color:#ffffff;text-align:center;}
+@media only screen and (max-width: 800px){
+	#searchbox{text-align:center;}
+	#searchbox #heading{text-align:center;}
+	#searchbox #sort{display:block;}
+	#searchbox #sidebar{display:none;}
+	#searchbox #results{width:100%;}
+	#searchbox #mobilesearch{display:block;}
+}

@@ -1,0 +1,11 @@
+body{margin:0; padding:0; min-width:300px; wrap-word:break-word; -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+#main{width:auto; height:auto; background-color:#ffffff; padding:0;}
+#main #bigmessage{width:auto; height:auto; padding:20px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:30px; text-align:center; display:block;}
+#main #bigmessage #smallmessage{width:auto; height:auto; padding:5px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:18px; text-align:center; display:block;}
+#main #support{width:auto; height:auto; padding:10px; background-color:#336CA6; text-align:center;}
+#main #error{width:auto; height:auto; padding:10px; background-color:#BE473C; color:#ffffff; font-family:'Alegreya Sans'; font-size:20px; text-align:center; display:block;}
+#main #good{width:auto; height:auto; padding:10px; background-color:#43733D; color:#ffffff; font-family:'Alegreya Sans'; font-size:20px; text-align:center; display:block;}
+#main #support .supportfield{width:300px; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:18px; border:1px solid #ffffff; border-bottom:1px solid #dedede; display:inline-block;}
+#main #support #supportarea{width:300px; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:15px; border:1px solid #ffffff; resize:none; display:inline-block;}
+#main #supportbutton{width:auto; height:auto; padding:10px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; border:none; border:1px solid #ffffff; -webkit-transition: background-color 200ms ease-out; -moz-transition: background-color 200ms ease-out; -o-transition: background-color 200ms ease-out; transition: background-color 200ms ease-out; cursor:pointer; display:inline-block;}
+#main #supportbutton:hover{background-color:#ffffff; color:#336CA6;}

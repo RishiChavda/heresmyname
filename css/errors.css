@@ -1,0 +1,15 @@
+body{margin:0; padding:0; min-width:250px; wrap-word:break-word; background-color:#ffffff; cursor:move;}
+#dragbox{margin:0; width:100%; height:100%; min-height:500px; padding:0; background-image:url(../img/bgry.png); background-position:0 0; background-repeat:repeat; background-color:#ffffff;}
+#dragbox #topbar{width:auto; height:auto; padding:5px; background-color:#ffffff; color:#336CA6; text-align:center; font-family:'Bad Script'; font-size:18px; border-bottom:1px solid #336CA6;}
+#dragbox #errorcode{width:auto; height:auto; padding:10px; text-align:center; font-family:'Open Sans'; font-weight:700; font-size:200px; color:#ffffff; text-shadow:1px 1px 50px #000000;}
+#dragbox #errormsg{width:auto; height:auto; padding:10px; text-align:center; font-family:'Open Sans'; font-weight:700; font-size:100px; color:#ffffff; text-shadow:1px 1px 50px #000000;}
+#dragbox #errordescript{width:auto; height:auto; padding:20px; text-align:center; font-family:'Alegreya Sans'; font-weight:700; font-size:25px; color:#ffffff; text-shadow:1px 1px 30px #000000;}
+#dragbox #backlink{width:auto; height:auto; padding:40px; text-align:center; font-family:'Alegreya Sans'; font-weight:400; font-size:35px; color:#ffffff; text-decoration:none; display:block;}
+@media only screen and (max-width: 800px){
+	#dragbox{width:auto;}
+	#dragbox #topbar{padding:5px; font-size:15px;}
+	#dragbox #errorcode{font-size:80px;}
+	#dragbox #errormsg{font-size:40px;}
+	#dragbox #errordescript{font-size:20px;}
+	#dragbox #backlink{font-size:15px;}
+}

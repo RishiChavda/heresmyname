@@ -1,0 +1,94 @@
+body{margin:0; padding:0; min-width:300px; wrap-word:break-word; background:url(bgtry.png) no-repeat center center fixed; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+a{color:#333333; text-decoration:none;}
+input[type=submit][disabled=disabled], button[disabled=disabled]{background-color: rgba(0,0,0,0.1);}
+.hometext{width:auto; height:auto; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; padding:10px; text-decoration:none;}
+.link{width:auto; height:auto; color:#4F8BC9; font-family:'Alegreya Sans'; font-size:18px; text-decoration:none;}
+.cornerclose{float:right; padding:5px; padding-right:10px; color:#f5f5f5; font-family:'Alegreya Sans'; font-size:12px; cursor:pointer;}
+.bottomclose{width:auto; text-align:center; padding:5px; padding-right:10px; color:#f5f5f5; font-family:'Alegreya Sans'; font-size:12px; cursor:pointer;}
+.longformfield{width:400px; height:60px; padding:10px; background-color: rgba(0,0,0,0.2); font-size:18px; font-family:'Alegreya Sans'; color:#ffffff; border:none; border:1px solid rgba(0,0,0,0.8);}
+.longformfield:focus{background-color:rgba(0,0,0,0.5); -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out;}
+.formfield{width:auto; height:auto; padding:10px; background-color: rgba(0,0,0,0.2); font-size:18px; font-family:'Alegreya Sans'; color:#ffffff; border:none; border:1px solid rgba(0,0,0,0.8);}
+.formfield:focus{background-color:rgba(0,0,0,0.5); -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out;}
+.formbutton{width:auto; height:auto; padding:10px; font-size:15px; font-family:'Alegreya Sans'; color:#ffffff; background-color:#205692; border:none;}
+#error{margin:0px 20%; width:auto; padding:10px; text-align:center; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; background-color:#BE473C;}
+#good{margin:0px 20%; width:auto; padding:10px; text-align:center; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; background-color:#43733D;}
+#error a, #good a{color:#ffffff; font-size:15px;}
+#topbar{position:fixed; top:0; left:0; width:100%; height:auto; background-color:rgba(255, 255, 255, 0.1); border-bottom:1px solid #ffffff; z-index:10000;}
+#topbar table{margin:0% 10%; width:80%; padding:0; vertical-align:middle;}
+#topbar #logo{width:15%; min-width:120px; text-align:left; padding:5px; padding-left:10px; cursor:pointer;}
+#topbar #logo #word{width:auto; height:auto; padding:5px; font-family:'Bad Script'; font-size:18px; color:#ffffff; text-align:left;}
+#topbar #logo #pic{display:none;}
+#topbar #logo #pic img{width:30px; height:auto;}
+#topbar #logo:hover{opacity:0.7; filter:alpha(opacity=70);}
+#topbar #user{width:30%; padding-right:10px; text-align:right;}
+#topbar #user #menu{width:auto; cursor:pointer;}
+#topbar #user #menu .link{width:auto; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; padding:10px; text-decoration:none;}
+#topbar #user #menu .link:hover{opacity:0.7; filter:alpha(opacity=40);}
+#loginbox{margin-top:50px; width:auto; height:auto; background-color:rgba(0, 0, 0, 0.1); padding:20px; border-bottom:1px solid #ffffff; text-align:center; display:none; overflow:hidden;}
+#loginbox #heading{width:auto; color:#ffffff; font-family:'Alegreya Sans'; font-weight:100; font-size:20px; padding:5px; text-align:left;}
+#page #intro{width:auto; height:auto; min-height:95%; padding:10%; text-align:center;}
+#intro #open{width:auto; height:auto; padding:75px 0px; color:#ffffff; font-family:'Alegreya Sans'; font-weight:200; font-size:65px; text-align:center;}
+#intro #sub{width:auto; height:auto; padding:75px 0px; color:#ffffff; font-family:'Alegreya Sans'; font-weight:300; font-size:35px; text-align:center;}
+#intro #down{width:auto; height:auto; padding:75px 0px;}
+#intro #down #link{width:auto; height:auto; padding:10px; background-color:rgba(0,0,0,0.1); color:#ffffff; font-family:'Alegreya Sans'; font-weight:300; font-size:25px; text-align:center; border:1px solid #ffffff;}
+#page #about{width:auto; height:auto; padding:50px; background-color: rgba(0, 0, 0, 0.5); text-align:center;}
+#about table{margin:0px 10%; width:80%; padding:0;}
+#about #words{width:70%; height:auto; padding:20px; text-align:justify;}
+#about #picture{width:30%; height:auto; padding:0; text-align:center;}
+#about #picture img{width:100%; min-width:120px; height:auto;}
+#about #heading{width:auto; height:auto; padding:10px; color:#ffffff; font-family:'Alegreya Sans'; font-weight:300; font-size:30px; text-align:left;}
+#about #descript{width:auto; height:auto; padding:10px; color:#ffffff; font-family:'Alegreya Sans'; font-weight:300; font-size:20px; text-align:left;}
+#page #copyright{width:auto; height:auto; padding:10px; background-color:rgba(255,255,255,0.1); color:#dddddd; font-family:'Open Sans'; font-weight:400; font-size:15px; text-align:center;}
+#loginpage{width:auto; height:auto; min-height:95%; padding:50px; text-align:center;}
+#loginpage #open{width:auto; height:auto; padding:50px 0px; color:#ffffff; font-family:'Exo 2'; font-weight:100; font-size:55px; text-align:center;}
+#loginpage #homemessage{width:auto; height:auto; padding:10px; font-size:18px; font-family:'Alegreya Sans'; color:#ffffff;}
+#loginpage #logger{width:auto; height:auto; padding:20px 0px; text-align:center;}
+#loginpage #down{width:auto; height:auto; padding:5px;}
+#loginpage #link{width:auto; height:auto; padding:10px; background-color:rgba(0,0,0,0.2); color:#ffffff; font-family:'Alegreya Sans'; font-weight:100; font-size:18px; text-align:center;}
+#forgotpass{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:15px; color:#ffffff;}
+#regpage{width:auto; height:auto; padding:50px; text-align:center;}
+#regpage #open{width:auto; height:auto; padding:50px 30px; color:#ffffff; font-family:'Exo 2'; font-weight:100; font-size:35px; text-align:center;}
+#regpage #regger{width:100%; height:auto; padding:10px 0px; text-align:center;}
+#regger table{width:100%; padding:0; vertical-align:top; text-align:left;}
+#regger #textside{width:50%; padding:30px; background-color:rgba(0,0,0,0.1); text-align:left; vertical-align:top;}
+#regger #textside #bohead{width:auto; height:auto; padding:10px; color:#f5f5f5; font-family:'Alegreya Sans'; font-size:25px; font-weight:300; display:inline-block;}
+#regger #textside #bohead a{width:auto; height:auto; color:#dddddd; padding:0px 5px; font-family:'Alegreya Sans'; font-weight:400; font-size:15px; display:inline-block;}
+#regger #textside #botext{width:auto; height:auto; padding:10px; color:#f5f5f5; font-family:'Alegreya Sans'; font-size:18px; display:block;}
+#regger #formside{width:50%; padding:20px; vertical-align:top; text-align:center;}
+.regfield{width:70%; min-width:200px; max-width:500px; height:auto; padding:10px; background-color: rgba(0,0,0,0.2); font-size:20px; font-family:'Alegreya Sans'; color:#ffffff; border:none; border:1px solid rgba(0,0,0,0.5);}
+.regfield:focus{background-color:rgba(0,0,0,0.5); -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out;}
+.fielderror{width:auto; height:auto; padding:10px; background-color: rgba(0,0,0,0.8); color:#BE473C; font-family:'Alegreya Sans'; font-size:15px;}
+.regbutton{width:90%; height:auto; padding:10px; background-color: rgba(0,0,0,0.5); font-size:18px; font-family:'Alegreya Sans'; color:#ffffff; border:none; border:1px solid rgba(0,0,0,0.8);}
+@media only screen and (max-width: 800px){
+	#topbar{background-color:rgba(255, 255, 255, 1); border-bottom:1px solid #336CA6;}
+	#topbar #logo{width:40px;}
+	#topbar #logo #word{display:none;}
+	#topbar #logo #pic{display:block;}
+	#topbar #user{width:auto;}
+	#topbar #user #menu .link{padding:0; color:#336CA6; display:inline-block;}
+	.regfield{width:50%; font-size:20px; padding:5px;}
+	.formfield{width:auto; font-size:15px; padding:5px;}
+	.longformfield{width:auto; height:auto; font-size:15px; padding:5px;}
+	.link{font-size:15px;}
+	#regger #textside{display:none;}
+	#regger #formside{width:100%; border:none; padding:0px;}
+	#error{font-size:12px;}
+	#good{font-size:12px;}
+	#error a, #good a{font-size:12px;}
+	#forgotpass{font-size:12px;}
+	#topbar #search{display:none;}
+	#page #intro{margin-top:100px; padding:50px;}
+	#intro #open{font-size:30px; padding:40px;}
+	#intro #sub{font-size:20px; padding:40px;}
+	#intro #down #link{padding:5px; background-color:rgba(0,0,0,0.1); color:#ffffff; font-family:'Alegreya Sans'; font-weight:300; font-size:15px;}
+	#page{margin-top:30px;}
+	#page #about{padding:100px 10px;}
+	#page #about #picture{display:none;}
+	#page #features{display:none;}
+	#loginpage #open{font-size:30px; padding:30px;}
+	#loginpage #homemessage{font-size:15px; padding:5px;}
+	#loginpage #down #link{font-size:15px;}
+	#loginpage #open{font-size:30px; padding:20px;}
+	#loginpage #homemessage{font-size:13px; padding:5px;}
+	#loginpage #down #link{font-size:15px;}}
+}

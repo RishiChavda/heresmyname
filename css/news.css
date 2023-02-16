@@ -1,0 +1,42 @@
+/* EE.NEWS CSS */
+/*
+#main #sidebar{position:absolute; margin-left:75%; width:23%; height:auto; padding:5px; z-index:10;}
+#sidebar #trends{width:auto; padding:10px; border-left:1px solid #aaaaaa; overflow:auto;}
+#sidebar #trends .entry{width:auto; padding:5px; color:#336CA6; font-family:'Open Sans'; font-size:15px; border-bottom:1px solid #eeeeee; text-align:center; word-wrap:break-word; cursor:pointer;}
+*/
+#main #news{width:70%; height:auto;}
+#main .heading{width:auto; padding:10px; font-family:'Open Sans'; font-size:18px;}
+
+
+#posts .post{width:auto; padding:10px; border:1px solid #eeeeee; border-bottom:2px solid #dddddd; text-align:left;}
+#posts .post .top{width:auto; height:50px; padding:5px; color:#333333; font-family:'Alegreya Sans'; font-size:15px;}
+#posts .post .top .name{width:auto; padding:5px; color:#33597F; font-family:'Alegreya Sans'; font-size:18px; font-weight:400; cursor:pointer;}
+#posts .post .top .name img{float:left; width:35px; height:auto; padding:1px 3px; border-radius:100px;}
+#posts .post .timestamp{width:auto; color:#33597F; font-family:'Alegreya Sans'; font-size:13px;}
+#posts .post .caption{width:auto; padding:10px; color:#111111; font-family:'Alegreya Sans'; font-size:16px;}
+#posts .post .window{margin:0px 20%; width:auto; padding:10px; color:#333333; border:2px solid #dddddd; font-family:'Open Sans'; font-size:30px; font-weight:400; text-align:center;}
+#posts .post .opts{width:auto; padding:20px; text-align:right;}
+#posts .post .opts .option{width:auto; padding:10px; color:#333333; font-family:'Alegreya Sans'; font-size:15px; cursor:pointer;}
+#posts .post .opts .option:hover{color:#555555;}
+
+/*
+
+#main .heading{width:auto; padding:10px; font-family:'Open Sans'; font-size:18px;}
+#news #posts .post{width:auto; padding:10px; border:1px solid #eeeeee; border-bottom:2px solid #dddddd; text-align:left;}
+#news #posts .post .top{width:auto; height:50px; padding:5px; color:#333333; font-family:'Alegreya Sans'; font-size:15px;}
+#news #posts .post .top .name{width:auto; padding:5px; color:#33597F; font-family:'Alegreya Sans'; font-size:18px; font-weight:400; cursor:pointer;}
+#news #posts .post .top .name img{float:left; width:35px; height:auto; padding:1px 3px; border-radius:100px;}
+#news #posts .post .timestamp{width:auto; color:#33597F; font-family:'Alegreya Sans'; font-size:13px;}
+#news #posts .post .caption{width:auto; padding:10px; color:#111111; font-family:'Alegreya Sans'; font-size:16px;}
+#news #posts .post .window{margin:0px 20%; width:auto; padding:10px; color:#333333; border:2px solid #dddddd; font-family:'Open Sans'; font-size:30px; font-weight:400; text-align:center;}
+#news #posts .post .opts{width:auto; padding:20px; text-align:right;}
+#news #posts .post .opts .option{width:auto; padding:10px; color:#333333; font-family:'Alegreya Sans'; font-size:15px; cursor:pointer;}
+#news #posts .post .opts .option:hover{color:#555555;}
+
+@media only screen and (max-width: 800px){
+	#sidebar{display:none;}
+	#main #news{width:100%;}
+	#main #news #posts{margin:5px;}
+	#main #news #posts .post .window{font-size:20px;}
+}
+*/

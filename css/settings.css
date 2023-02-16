@@ -1,0 +1,62 @@
+#main #settings{width:auto; height:auto; padding:0; border-bottom:1px solid #f5f5f5;}
+#main table{width:100%; padding:0;}
+#main #sidesection{width:180px; height:auto; padding:10px 10px 10px 2px; vertical-align:top; border-right:1px solid #cccccc;}
+#main #sidesection .tablink{width:auto; height:auto; padding:5px; background-color:#ffffff; color:rgba(51, 108, 166, 0.7); font-family:'Alegreya Sans'; font-size:15px; display:block;}
+#main #sidesection .tablink:hover{background-color:rgba(51, 108, 166, 0.9); color:#ffffff;}
+#main #sidesection #backget{width:auto; height:auto; padding:5px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; display:none;}
+#main #mainsection{width:auto; height:auto; vertical-align:top;}
+#main #mainsection .tabcontainer{width:auto; height:auto; padding:5px;}
+#main #mainsection .title{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:18px; border-bottom:1px solid #eeeeee;}
+#main #mainsection .title #sideget{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:15px; color:#555555; display:none;}
+#main #mainsection .title #sideget:hover{color:#333333;}
+#main #mainsection .section{width:auto; height:auto; padding:10px; border-bottom:1px solid #dedede;}
+#main #mainsection .csection{width:auto; height:auto; padding:10px; border-bottom:1px solid #dedede; text-align:center;}
+#main #mainsection .fieldsub{width:auto; height:auto; padding:5px; padding-right:20px; font-family:'Alegreya Sans'; font-size:15px; display:inline-block; color:#333333;}
+#main #mainsection .fieldinfo{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:13px; display:inline-block; color:#555555;}
+#main #mainsection .fieldin{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:12px; border:none; border:1px solid #cccccc; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out;}
+#main #mainsection .fieldin:focus{border:1px solid #336CA6;}
+#main #mainsection .colourin{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:12px; border:none; border:1px solid #cccccc; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out;}
+#main #mainsection .colourin:focus{border:1px solid #336CA6;}
+#main #mainsection .currentprofpic{width:20%; min-width:80px; height:auto; border-radius:100000px;}
+#main #mainsection .currentbackpic{width:30%; min-width:100px; height:auto;}
+#main #mainsection .filelabel{width:auto; height:auto; padding:5px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; border:none; display:inline-block; text-align:center; -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out; cursor:pointer;}
+#main #mainsection .filelabel:hover{background-color:#ffffff; color:#336CA6;}
+#main #mainsection .filedel{width:auto; height:auto; padding:5px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; border:none; display:inline-block; text-align:center; -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out;}
+#main #mainsection .filedel:hover{background-color:#ffffff; color:#336CA6;}
+#main #mainsection .filein{margin:0; width:0; height:0; padding:0; display:none; text-align:center;}
+#main #mainsection .selectin{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:12px; border:none; border:1px solid #cccccc; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out; text-align:center; -webkit-appearance:none; -moz-appearance:none; text-indent:1px; text-overflow:'';}
+#main #mainsection .selectin:focus{border:1px solid #336CA6;}
+#main #mainsection .fieldlink{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:15px; color:#336CA6; border:1px solid #cccccc; -webkit-transition: border 200ms ease-out; -moz-transition: border 200ms ease-out; -o-transition: border 200ms ease-out; transition: border 200ms ease-out; background-color:#f5f5f5; -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out;}
+#main #mainsection .fieldlink:hover{background-color:#336CA6; color:#ffffff; border:1px solid #336CA6;}
+#main #mainsection .smallfieldin{width:30px; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:15px; border:none; border:1px solid #cccccc; text-align:center; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out; margin:0; -webkit-appearance:none;}
+#main #mainsection .smallfieldin:focus{border:1px solid #336CA6;}
+#main #mainsection .longfieldin{width:45px; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:15px; border:none; border:1px solid #cccccc; text-align:center; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out; margin:0; -webkit-appearance:none;}
+#main #mainsection .longfieldin:focus{border:1px solid #336CA6;}
+#main #mainsection .bigtext{width:500px; height:200px; padding:5px; font-family:'Alegreya Sans'; font-size:15px; border:none; border:1px solid #cccccc; text-align:justify; resize:none; display:block; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out;}
+#main #mainsection .bigtext:focus{border:1px solid #336CA6;}
+#main #mainsection .linegap{width:20px; height:10px; display:inline-block;}
+#main #mainsection .nopic{width:auto; height:auto; padding:10px 20px; background-color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; color:#333333;}
+#main #mainsection .saved{width:auto; height:auto; padding:10px 20px; background-color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; color:#336ca6; border-bottom:1px solid #336ca6;}
+#main #mainsection .error{width:auto; height:auto; padding:10px 20px; background-color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; color:#eb3845; border-bottom:1px solid #eb3845;}
+.conentry{width:auto; height:auto; padding:5px; border-bottom:1px solid #cccccc;}
+.conentry img{width:50px; height:auto; display:inline;}
+.conentry .name{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-weight:300; font-size:20px; display:inline-block; border-radius:10000px;}
+.conentry .name:hover{color:#336CA6;}
+.conentry .name img{width:35px; height:auto; display:inline; border-radius:10000px;}
+.conentry .unblock{float:right; width:60px; height:auto; padding:10px 20px; background-color:#cccccc; font-family:'Alegreya Sans'; font-size:15px; color:#ffffff; display:inline; text-align:center;}
+.conentry .unblock:hover{background-color:#eb3845;}
+.buttonbox{width:auto; height:auto; padding:10px 5px; text-align:center;}
+.buttonbox .savebutton{width:auto; height:auto; padding:5px 10px; background-color:#f5f5f5; color:#336CA6; font-family:'Alegreya Sans'; font-size:15px; border:1px solid #336CA6; -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out; cursor:pointer;}
+.buttonbox .savebutton:hover{background-color:#f5f5f5; color:#336CA6;}
+@media only screen and (max-width: 800px){
+	#main #sidesection{width:0; display:none; border:none;}
+	#main #sidesection #backget{display:block;}
+	#main #mainsection .bigtext{width:auto;}
+	#main #mainsection .fieldsub{display:block;}
+	#main #mainsection .fieldinfo{display:block;}
+	#main #mainsection .fieldin{display:block;}
+	#main #mainsection .title #sideget{display:inline-block;}
+	#main #mainsection .filelabel{display:block;}
+	#main #mainsection .filedel{display:block;}
+	
+}

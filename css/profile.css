@@ -1,0 +1,57 @@
+#wide #cover{margin:0; width:auto; height:auto; background:url(img/bgtry.png) no-repeat center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; vertical-align:middle; text-align:center; padding:10px 0px 0px 0px; background-color:#336CA6;}
+#wide .title{width:auto; height:auto; padding:5px; color:#336CA6; font-family:'Open Sans'; font-size:18px;}
+#cover #profpic{width:auto; height:auto; padding:10px;}
+#cover #profpic img{width:200px; height:auto; background-color:#336CA6; max-height:350px; border-radius:1000000px; border:3px solid rgba(0,0,0,0.5);}
+#cover #info{width:auto; height:auto; padding:5px; background-color:rgba(0,0,0,0.3);}
+#cover #info #name{width:auto; height:auto; padding:3px; color:#ffffff; font-family:'Alegreya Sans'; font-size:22px;}
+#cover #info #quote{width:auto; height:auto; padding:5px; color:#eeeeee; font-family:'Alegreya Sans'; font-size:18px;}
+#cover #info #sub{width:auto; padding:5px; text-align:center;}
+#cover #info #sub .infobit{width:auto; padding:0px 5px; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px;}
+#cover #info #sub .infobit a{color:#ffffff; font-family:'Alegreya Sans'; font-size:15px;}
+#followstatus{width:auto; height:auto; padding:5px; background-color:rgba(0,0,0,0.5); font-family:'Open Sans'; font-size:15px; color:#ffffff; text-align:center; display:inline-block; cursor:text;}
+#followlink, #cover #blocklink{width:auto; height:auto; padding:5px; background-color:rgba(0,0,0,0.2); font-family:'Open Sans'; font-size:15px; color:#ffffff; text-align:center; display:inline-block; cursor:pointer; -webkit-transition: background-color 300ms ease-out; -moz-transition: background-color 300ms ease-out; -o-transition: background-color 300ms ease-out; transition: background-color 300ms ease-out;}
+#followlink:hover, #cover #blocklink:hover{background-color:rgba(0,0,0,0.7);}
+#wide #leftinfo{position:absolute; width:20%; height:auto; padding:10px; border-right:1px solid #dddddd; overflow:auto;}
+#leftinfo #ame{width:auto; height:auto; padding:5px; color:#333333; font-family:'Open Sans'; font-size:15px; text-align:justify; overflow:auto;}
+#wide #rightmain{margin-left:23%; width:auto; height:auto; padding:10px;}
+#wide #rightmain table{width:100%;}
+#wide .story{width:auto; height:auto; padding:10px; color:#555555; font-family:'Alegreya Sans'; font-size:18px; text-align:center; border:1px solid #f5f5f5;}
+#wide .story a{width:auto; height:auto; padding:10px; display:block;}
+#wide .story .name{width:auto; height:auto; padding:10px; font-size:18px; font-family:'Alegreya Sans'; font-weight:300; color:#333333;}
+#wide .story .sub{width:auto; height:auto; font-size:15px; font-family:'Alegreya Sans'; font-weight:300; color:#333333;}
+#wide .story .links{width:auto; height:auto; text-align:center; display:none;}
+#wide .story .links a{width:auto; height:auto; padding:10px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:15px; text-align:center; text-decoration:none; display:inline-block; border:1px solid #ffffff; border-radius:1000px;}
+#wide .story:hover{border:1px solid #336CA6; -webkit-transition: border 1000ms ease-out; -moz-transition: border 1000ms ease-out; -o-transition: border 1000ms ease-out; transition: border 1000ms ease-out; color:#ffffff; -webkit-transition: color 500ms ease-out; -moz-transition: color 500ms ease-out; -o-transition: color 500ms ease-out; transition: color 500ms ease-out; background-color:#336CA6; -webkit-transition: background-color 300ms ease-out; -moz-transition: background-color 300ms ease-out; -o-transition: background-color 300ms ease-out; transition: background-color 300ms ease-out; cursor:pointer;}
+#wide .story:hover .links{display:inline-block;}
+#wide .story:hover .name{color:#ffffff; -webkit-transition: color 300ms ease-out; -moz-transition: color 300ms ease-out; -o-transition: color 300ms ease-out; transition: color 300ms ease-out; display:none;}
+#wide .story:hover .sub{color:#ffffff; -webkit-transition: color 300ms ease-out; -moz-transition: color 300ms ease-out; -o-transition: color 300ms ease-out; transition: color 300ms ease-out; display:none;}
+#wide .story .links a:hover{background-color:#ffffff; color:#336CA6;}
+#wide #nostory{width:auto; padding:10px; font-size:15px; font-family:'Open Sans'; color:#336CA6; border:1px solid #dddddd; text-align:center;}
+#rightmain #shared{width:auto; height:auto; padding:5px;}
+#shared .post{width:auto; padding:10px; border-bottom:2px solid #eeeeee; text-align:left;}
+#shared .post .top{width:auto; height:50px; padding:5px; color:#333333; font-family:'Alegreya Sans'; font-size:15px;}
+#shared .post .top .postpic{float:left; width:45px;  height:auto; padding:1px 3px; background-color:#336CA6; border-radius:10000px;}
+#shared .post .top .name{width:auto; padding:2px 5px; color:#33597F; font-family:'Alegreya Sans'; font-size:18px; font-weight:300; cursor:pointer;}
+#shared .post .top .timestamp{width:auto; padding:2px 5px; color:#33597F; font-family:'Alegreya Sans'; font-size:12px;}
+#shared .post .caption{width:auto; padding:8px 5px 10px 5px; color:#555555; font-family:'Alegreya Sans'; font-size:16px;}
+#shared .post .window{margin:0px 20%; width:auto; padding:10px; color:#333333; border:2px solid #eeeeee; font-family:'Alegreya Sans'; font-size:22px; font-weight:300; text-align:center;}
+#shared .post .opts{width:auto; padding:15px 5px 5px 5px; text-align:right;}
+#shared .post .opts .option{width:auto; padding:10px; color:#333333; font-family:'Alegreya Sans'; font-size:15px; cursor:pointer; display:inline-block;}
+#shared .post .opts .option:hover{color:#555555;}
+#shared .post .opts .openshare{width:auto; padding:10px; color:#333333; font-family:'Alegreya Sans'; font-size:15px; cursor:pointer; display:inline-block;}
+#shared .post .opts .openshare:hover{color:#555555;}
+#shared #nocontent{width:auto; height:auto; padding:6px; color:#BE473C; font-family:'Alegreya Sans'; font-size:12px;}
+#shared #newshare{margin-top:50px; width:auto; padding:5px 10px; background-color:#ffffff; border-bottom:2px solid #bbbbbb; text-align:right; z-index:1000000; display:none;}
+#shared #newshare #title{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:18px; color:#333333;}
+#shared #newshare .postcapt{width:100%; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:15px; border:none; border:1px solid #cccccc; text-align:left; resize:none;}
+#shared #newshare .postshare{width:auto; height:auto; padding:5px; background-color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:12px; border:none;}
+#shared #newshare .postshare:hover{opacity:0.75; filter:alpha(opacity=75);}
+@media only screen and (max-width: 800px){
+	#cover #info #name{font-size:15px;}
+	#cover #info #quote{font-size:13px;}
+	#cover #info #sub .infobit{font-size:12px;}
+	#wide #leftinfo{position:static; width:auto;}
+	#wide #leftinfo #ame{font-size:12px;}
+	#wide #rightmain{margin:0; width:100%; padding:0;}
+	#wide #rightmain table{display:none;}
+}

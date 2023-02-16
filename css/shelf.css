@@ -1,0 +1,16 @@
+#shelfmain{width:auto; height:auto; padding:10px;}
+#shelfmain #title{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:23px; color:#336CA6;}
+#shelfmain .item{width:auto; height:auto; padding:5px; border:1px solid #f5f5f5; border-bottom:1px solid #eeeeee;}
+#shelfmain .item .name{width:auto; padding:3px 5px; font-family:'Alegreya Sans'; font-size:15px; color:#333333;}
+#shelfmain .item .writer{width:auto; padding:2px 5px; font-family:'Alegreya Sans'; font-size:12px; color:#333333;}
+#shelfmain .item .rating{width:auto; padding:2px 5px; font-family:'Alegreya Sans'; font-size:12px; color:#333333;}
+#shelfmain .item .delete{float:right; width:auto; padding:2px 5px; font-family:'Alegreya Sans'; font-size:10px; color:#333333;}
+#shelfmain .item .delete:hover{opacity:0.6; filter:alpha(opacity=60);}
+#shelfmain .item .bottomdel{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:12px; color:#336CA6; text-align:center; display:none;}
+#shelfmain .item .bottomdel a{width:auto; height:auto; font-family:'Alegreya Sans'; font-size:12px; color:#336CA6; text-align:center;}
+#nostory{width:auto; padding:10px; text-align:center; color:#BE473C; font-family:'Alegreya Sans'; font-size:15px; cursor:pointer;}
+@media only screen and (max-width: 800px){
+	#shelfmain .item{border:1px solid #eeeeee;}
+	#shelfmain .item .delete{display:none;}
+	#shelfmain .item .bottomdel{display:block;}
+}

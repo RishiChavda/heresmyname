@@ -1,0 +1,37 @@
+#story{width:auto; height:auto; padding:10px;}
+#story #names{width:auto; height:auto; padding:5px; text-align:center; border-bottom:3px solid #dddddd;}
+#story #names #story{width:auto; height:auto; padding:3px; color:#336CA6; font-family:'Alegreya Sans'; font-size:25px; text-align:center; display:block;}
+#story #names #writer{width:auto; height:auto; padding:3px; color:#336CA6; font-family:'Alegreya Sans'; font-size:18px; text-align:center; display:block;}
+#story #names #favecount{width:auto; height:auto; padding:3px; color:#336CA6; font-family:'Alegreya Sans'; font-size:15px; text-align:center; display:block;}
+#story #atts{width:auto; height:auto; padding:3px; text-align:center;}
+#story #atts .infobit{width:auto; height:auto; padding:1px 3px; color:#336CA6; font-family:'Alegreya Sans'; font-size:12px; display:inline-block;}
+#story #descript{width:auto; height:auto; padding:10px; color:#333333; font-family:'Alegreya Sans'; font-size:15px; text-align:justify;}
+#story #newshare{width:auto; padding:5px 20px; background-color:#ffffff; border-bottom:2px solid #bbbbbb; text-align:right; z-index:1000000; display:none;}
+#story #newshare #title{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:18px; color:#333333;}
+#story #newshare .postcapt{width:100%; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:15px; border:none; border:1px solid #cccccc; text-align:left; resize:none;}
+#story #newshare .postshare{width:auto; height:auto; padding:5px; background-color:#dddddd; color:#336CA6; color:#ffffff; font-family:'Alegreya Sans'; font-size:12px; border:none; border:1px solid #336CA6;}
+#story #newshare .postshare:hover{opacity:0.75; filter:alpha(opacity=75);}
+#story #buttons{width:auto; height:auto; padding:5px; text-align:center;}
+#story #buttons .acts{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:12px; text-align:center; border:1px solid #336CA6; border-radius:10px; color:#336CA6; -webkit-transition: color 500ms ease-out; -moz-transition: color 500ms ease-out; -o-transition: color 500ms ease-out; transition: color 500ms ease-out; background-color:#ffffff; -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out; display:inline-block;}
+#story #buttons .acts:hover{background-color:#336CA6; color:#ffffff;}
+#story #buttons .facts{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:12px; border:1px solid #336CA6; border-radius:10px; color:#ffffff; background-color:#336CA6; text-align:center; display:inline-block;}
+#story #comments{width:auto; height:auto; padding:5px; border-bottom:3px solid #dddddd; display:none;}
+#story #comments #title{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:18px;}
+#story #comments .post{width:auto; padding:5px; border-bottom:1px solid #eeeeee; text-align:left;}
+#story #comments .post .del{float:right; width:auto; height:auto; padding:5px; color:#336CA6; font-family:'Alegreya Sans'; font-weight:300; font-size:15px; border-radius:10000px; display:block;}
+#story #comments .post .top{width:auto; height:auto;}
+#story #comments .post .top .name{width:auto; padding:1px; color:#333333; font-family:'Alegreya Sans'; font-size:18px; font-weight:400; cursor:pointer;}
+#story #comments .post .top .time{width:auto; padding:1px; color:#555555; font-size:15px; font-family:'Alegreya Sans';}
+#story #comments .post .content{width:auto; padding:5px; color:#333333; font-family:'Alegreya Sans'; font-size:15px; text-align:justify;}
+#story #comments #postcomment{width:auto; height:auto; padding:5px; text-align:center;}
+#story #comments #postcomment #commentcontent{width:100%; height:150px; padding:10px; color:#33697F; font-family:'Alegreya Sans'; font-size:15px; border:1px solid #cccccc; resize:none; -webkit-transition: border 500ms ease-out; -moz-transition: border 500ms ease-out; -o-transition: border 500ms ease-out; transition: border 500ms ease-out;}
+#story #comments #postcomment #commentcontent:focus{border:1px solid #336CA6;}
+#story #comments #postcomment #postnew{width:auto; height:auto; padding:10px; background-color:#ffffff; color:#336CA6; font-family:'Alegreya Sans'; border:1px solid #336CA6; text-align:center; -webkit-transition: background-color 500ms ease-out; -moz-transition: background-color 500ms ease-out; -o-transition: background-color 500ms ease-out; transition: background-color 500ms ease-out;}
+#story #comments #postcomment #postnew:hover{background-color:#336CA6; color:#ffffff;}
+@media only screen and (max-width: 800px){
+	#story #names #story{font-size:18px;}
+	#story #names #writer{font-size:15px;}
+	#story #descript{font-size:12px;}
+	#story #buttons .acts{border:none; border-bottom:1px solid #336CA6; border-radius:0px; display:block;}
+	#story #buttons .facts{border:none; border-bottom:1px solid #336CA6; border-radius:0px; display:block;}
+}

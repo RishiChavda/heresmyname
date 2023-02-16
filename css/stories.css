@@ -1,0 +1,25 @@
+#stories{width:auto; height:auto; border:1px solid #dddddd;}
+#stories table{width:100%; vertical-align:top;}
+#stories #storylist{width:50%; height:auto; padding:10px; border-right:1px solid #cccccc; vertical-align:top;}
+#stories #draftlist{width:50%; height:auto; padding:10px; vertical-align:top;}
+#stories .title{width:auto; padding:10px; font-family:'Open Sans'; font-size:18px;}
+#stories .entry{margin-top:10px; width:auto; height:auto; padding:10px; border-bottom:1px solid #dddddd;}
+#stories .entry .storyname{width:auto; font-family:'Open Sans'; font-size:15px; color:#336CA6;}
+#stories .entry .options{float:right; padding:5px; display:none;}
+#stories .entry .options a{width:auto; padding:5px; font-family:'Open Sans'; font-size:13px;}
+#stories .entry .options a:hover{color:#336CA6;}
+#stories .entry:hover .options{display:block;}
+#stories #mobilestories{display:none;}
+#stories #mobilestories #storylist{width:auto; height:auto; padding:5px; border:1px solid #eeeeee;}
+#stories #mobilestories #draftlist{width:auto; height:auto; padding:5px; border:1px solid #eeeeee;}
+#stories #mobilestories .title{width:auto; padding:10px; font-family:'Open Sans'; font-size:15px;}
+#stories #mobilestories .entry{margin-top:10px; width:auto; height:auto; padding:10px; border-bottom:1px solid #dddddd;}
+#stories #mobilestories .entry .storyname{width:auto; font-family:'Open Sans'; font-size:15px; color:#336CA6;}
+#stories #mobilestories .entry .options{padding:5px; display:none;}
+#stories #mobilestories .entry .options a{width:auto; padding:5px; font-family:'Open Sans'; font-size:12px;}
+#stories #mobilestories .entry .options a:hover{color:#336CA6;}
+#stories #mobilestories .entry:hover .options{display:block;}
+@media only screen and (max-width: 800px){
+#stories table{display:none;}
+#stories #mobilestories{display:block;}
+}

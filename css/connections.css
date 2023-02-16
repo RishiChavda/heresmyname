@@ -1,0 +1,25 @@
+#main #connections{width:auto; height:auto;}
+#main #connections table{margin:0; width:100%; padding:0;}
+#main #connections #following{width:50%; height:auto; padding:10px; vertical-align:top;}
+#main #connections #followers{width:50%; height:auto; padding:10px; vertical-align:top; border-left:1px solid #dddddd;}
+#main #connections .title{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:18px; border-bottom:1px solid #cccccc;}
+#main #connections .entry{width:auto; height:auto; padding:10px 5px; border-bottom:1px solid #cccccc; vertical-align:middle;}
+#main #connections .entry:hover{border-bottom:1px solid #cccccc;}
+#main #connections .entry .name{width:auto; height:auto; padding:20px; font-family:'Alegreya Sans'; font-weight:300; font-size:20px; display:inline-block;}
+#main #connections .entry .name img{width:40px; height:40px; background-color:#336CA6; display:inline-block; border-radius:10000px;}
+#main #connections .unfollow{float:right; width:60px; height:auto; padding:10px 20px; background-color:#eb3845; font-family:'Alegreya Sans'; font-size:15px; color:#ffffff; display:inline-block; text-align:center;}
+#main #connections .block{float:right; width:60px; height:auto; padding:10px 20px; background-color:#eb3845; font-family:'Alegreya Sans'; font-size:15px; color:#ffffff; display:inline-block; text-align:center;}
+#main #mobileconnections{width:auto; height:auto; display:none;}
+#main #mobileconnections table{margin:0; width:100%; padding:0;}
+#main #mobileconnections #following{width:auto; height:auto; padding:10px; text-align:center;}
+#main #mobileconnections #followers{width:auto; height:auto; padding:10px; text-align:center;}
+#main #mobileconnections .title{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-size:18px; border-bottom:1px solid #cccccc;}
+#main #mobileconnections .entry{width:auto; height:auto; padding:10px 5px; border:1px solid #dedede; text-align:center;}
+#main #mobileconnections .entry .name{width:auto; height:auto; padding:10px; font-family:'Alegreya Sans'; font-weight:300; font-size:20px; display:block;}
+#main #mobileconnections .entry .name img{width:30px; height:30px; background-color:#336CA6; text-align:center; border-radius:10000px;}
+#main #mobileconnections .unfollow{width:auto; height:auto; padding:10px 20px; background-color:#eb3845; font-family:'Alegreya Sans'; font-size:15px; color:#ffffff; display:inline-block; text-align:center;}
+#main #mobileconnections .block{width:auto; height:auto; padding:10px 20px; background-color:#eb3845; font-family:'Alegreya Sans'; font-size:15px; color:#ffffff; display:inline-block; text-align:center;}
+@media only screen and (max-width: 800px){
+#main #connections{display:none;}
+#main #mobileconnections{display:block;}
+}

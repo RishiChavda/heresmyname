@@ -1,0 +1,30 @@
+body{margin:0; padding:0; min-width:250px; wrap-word:break-word; background-color:#ffffff; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+#topbar{margin:0; top:0; left:0; width:auto; padding:10px; border-bottom:1px solid #bbbbbb;}
+#topbar #topbuttons{width:auto; height:auto; padding:0; text-align:center;}
+#topbar #topbuttons .toplink{width:auto; height:auto; background-color:#336CA6; display:inline-block; text-align:center; text-decoration:none; border-radius:10000px;}
+#topbar #topbuttons .toplink:hover{opacity:0.6; filter:alpha(opacity=60);}
+#topbar #topbuttons .toplink img{width:35px; height:35px; border-radius:10000px;}
+#topbar #names{width:auto; height:auto; padding:5px; text-align:center;}
+#topbar #names #storyname{width:auto; height:auto; padding:1px; font-family:'Alegreya Sans'; color:#333333; font-size:15px; text-decoration:none; display:block;}
+#topbar #names #storypart{width:auto; height:auto; padding:1px; font-family:'Alegreya Sans'; color:#333333; font-size:13px; text-decoration:none; display:block;}
+#topbar #names #writer{width:auto; height:auto; padding:1px; font-family:'Alegreya Sans'; color:#555555; font-size:12px; text-decoration:none; display:block;}
+#topbar #mainopts{width:auto; height:auto; text-align:center;}
+#topbar #mainopts #openblurb{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; color:#336CA6; font-size:12px; border-bottom:1px solid #336CA6; text-decoration:none; display:inline-block; cursor:pointer;}
+#topbar #mainopts #shelfappend{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; color:#336CA6; font-size:12px; border-bottom:1px solid #336CA6; text-decoration:none; display:inline-block; cursor:pointer;}
+#topbar #mainopts #sharestory{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; color:#336CA6; font-size:12px; border-bottom:1px solid #336CA6; text-decoration:none; display:inline-block; cursor:pointer;}
+#topbar #mainopts #favourite{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; color:#336CA6; font-size:12px; border-bottom:1px solid #336CA6; text-decoration:none; display:inline-block; cursor:pointer;}
+#topbar #mainopts #editlink{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; color:#336CA6; font-size:12px; border-bottom:1px solid #336CA6; text-decoration:none; display:inline-block; cursor:pointer;}
+#main{margin:0; width:100%; height:auto;}
+#main .title{width:auto; height:auto; padding:5px; font-family:'Alegreya Sans'; font-size:18px; color:#336CA6;}
+#main .storyin{width:100%; height:60%; min-height:500px; padding:10px; font-family:'Alegreya Sans'; font-size:15px; border:none; resize:none;}
+#main #blurbbox{width:auto; height:auto; padding:5px; border-bottom:1px solid #cccccc; display:none;}
+#main #blurbbox #storydescript{width:auto; height:auto; padding:15px; font-family:'Alegreya Sans'; font-size:15px; text-align:justify;}
+#main #storybox{width:auto; height:auto; padding:5px; border-bottom:1px solid #bbbbbb;}
+#main #storybox #storytext{width:auto; height:auto; padding:15px; font-family:'Alegreya Sans'; font-size:15px; text-align:justify;}
+@media only screen and (max-width: 800px){
+	#topbar{padding:5px;}
+	#main #blurbbox{border-bottom:1px solid #dedede;}
+	#main #blurbbox #storydescript{font-size:12px;}
+	#main #storybox{border-bottom:1px solid #dedede;}
+	#main #storybox #storytext{font-size:12px;}
+}
